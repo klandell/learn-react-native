@@ -1,10 +1,9 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View, Text } from 'react-native';
+import { MapCt } from '../components';
 
 export default () => (
-  <View style={styles.ct}>
-    <Text>Home</Text>
-  </View>
+  <MapCt />
 );
 
 const styles = StyleSheet.create({
